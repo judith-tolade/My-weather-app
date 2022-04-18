@@ -33,7 +33,7 @@ li {
   color: black;
   margin: 5px auto;
 }
-.col-2{
+.col-2 {
   box-shadow: 4px 4px 4px rgba(102, 101, 101, 0.1);
   border-radius: 4px;
   margin-top: 20px;
@@ -42,8 +42,8 @@ li {
   justify-content: center;
   align-items: center;
 }
-.col-2:hover{
-background-color: rgba(241, 239, 239, 0.5);
+.col-2:hover {
+  background-color: rgba(241, 239, 239, 0.5);
 }
 ul {
   padding-left: -30px;
