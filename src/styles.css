@@ -1,0 +1,57 @@
+body {
+  background-color: #a1dce7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.weather-app {
+  background-image: url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid blanchedalmond;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.weather {
+  text-align: right;
+}
+input {
+  width: 60%;
+  padding: 5px 10px;
+  margin-top: 30px;
+  color: black;
+}
+
+li {
+  list-style: none;
+  max-width: 300px;
+  color: black;
+  margin: 5px auto;
+}
+.col-2{
+  box-shadow: 4px 4px 4px rgba(102, 101, 101, 0.1);
+  border-radius: 4px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col-2:hover{
+background-color: rgba(241, 239, 239, 0.5);
+}
+ul {
+  padding-left: -30px;
+}
+a {
+  color: black;
+  font-size: 20px;
+}
+.temperature {
+  font-size: 30px;
+}
